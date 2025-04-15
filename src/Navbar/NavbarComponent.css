@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #15141a !important;
+    margin-bottom: 10px;
+   
+  }
+  
+  .navbar.dark {
+    background-color: #161a1e!important;
+  }
+  
+  .navbar-brand img {
+    margin-right: 90px;
+  }
+  
+  body {
+    transition: background-color 0.5s ease;
+  }
+
+  @media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+      }
+  }
+  
